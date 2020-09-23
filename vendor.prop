@@ -32,6 +32,9 @@ vendor.voice.voip.conc.disabled=true
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
 ro.vendor.bluetooth.wipower=false
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # Camera
 camera.display.lmax=1280x720
 camera.display.umax=1920x1080
