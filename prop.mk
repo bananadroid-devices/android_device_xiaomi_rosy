@@ -114,6 +114,9 @@ persist.vendor.camera.display.umax=1920x1080 \
 persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2
 
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera
+
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.charger.disable_init_blank=true \
