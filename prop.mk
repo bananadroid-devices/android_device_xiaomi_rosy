@@ -115,7 +115,8 @@ persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2
 
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera
+vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera \
+persist.vendor.camera.privapp.list=com.android.camerax
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
