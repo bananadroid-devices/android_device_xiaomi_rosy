@@ -1,0 +1,8 @@
+[
+   {
+      "remote":"github",
+      "branch":"master",
+      "repository":"aepranata/proton-clang",
+      "target_path":"prebuilts/clang/host/linux-x86/clang-proton"
+   }
+]
