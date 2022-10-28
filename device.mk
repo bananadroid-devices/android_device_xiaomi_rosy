@@ -351,6 +351,17 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+# Remove unwanted packages
+ifeq ($(WITH_GAPPS), true)
+PRODUCT_PACKAGES += \
+    RemovePackages \
+    Contacts \
+    DeskClock \
+    Dialer \
+    Messaging \
+    Calendar
+endif
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
