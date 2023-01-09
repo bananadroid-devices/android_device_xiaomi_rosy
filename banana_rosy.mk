@@ -13,6 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, vendor/banana/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOTANIMATION_HALF_RES := true
 BANANA_MAINTAINER := aepranata
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
