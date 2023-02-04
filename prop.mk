@@ -115,8 +115,11 @@ persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2
 
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera \
-persist.vendor.camera.privapp.list=com.android.camerax
+ro.hardware.camera=xiaomi \
+ro.com.google.lens.oem_camera_package=com.android.camera \
+ro.miui.notch=1 \
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.pixelexperience.faceunlock \
+persist.vendor.camera.privapp.list=com.android.camerax,org.lineageos.aperture
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
