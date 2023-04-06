@@ -1,0 +1,5 @@
+#============= kernel ==============
+allow kernel kernel:capability kill;
+allow kernel proc_boot_reason:file open;
+allow kernel vendor_file:dir read;
+allow kernel vendor_file:file { getattr read };

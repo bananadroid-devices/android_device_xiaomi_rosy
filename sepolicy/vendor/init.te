@@ -1,4 +1,10 @@
 #============= init ==============
-allow init sysfs:file setattr;
-allow init sysfs_batteryinfo:file setattr;
+set_prop(init, default_prop)
+
+allow init firmware_file:file getattr;
+allow init firmware_file:filesystem getattr;
 allow init proc_boot_reason:file r_file_perms;
+allow init sysfs_batteryinfo:file setattr;
+allow init sysfs_leds:file { read setattr };
+allow init sysfs_leds:lnk_file read;
+allow init vendor_file:file { getattr read };

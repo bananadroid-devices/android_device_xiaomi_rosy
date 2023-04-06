@@ -1,0 +1,2 @@
+#============= apexd ==============
+allow apexd apexd_prop:file { getattr open };
